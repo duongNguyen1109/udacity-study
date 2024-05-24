@@ -11,7 +11,7 @@ jobs:
       - checkout
       - run: 
           name: Yarn install
-          comman: |
+          command: |
             npm install -g yarn
       - run:
           name: Front-End Install
